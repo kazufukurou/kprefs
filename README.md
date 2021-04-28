@@ -1,4 +1,5 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-orange.svg)](https://opensource.org/licenses/Apache-2.0)
+[![](https://jitpack.io/v/artyommironov/kprefs.svg)](https://jitpack.io/#artyommironov/kprefs)
 
 # kprefs
 Kotlin delegates for SharedPreferences

@@ -4,10 +4,8 @@ plugins {
   kotlin("android")
 }
 
-setupDependencyUpdates()
-
 android {
-  compileSdkVersion(Sdk.compile)
+  compileSdkVersion(30)
 
   buildFeatures {
     buildConfig = false
@@ -19,11 +17,11 @@ android {
 }
 
 dependencies {
-  implementation(Libs.kotlinStdLib)
+  implementation(libs.kotlinStdlib)
 
-  testImplementation(Libs.robolectric)
-  testImplementation(Libs.kotlinTestJunit)
-  testImplementation(Libs.androidxTestExtJunit)
+  testImplementation(libs.robolectric)
+  testImplementation(libs.kotlinTestJunit)
+  testImplementation(libs.androidxTestExtJunit)
 }
 
 afterEvaluate {
